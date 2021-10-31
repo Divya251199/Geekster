@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        
+        form{
+                background-color: coral;
+                width: 400px;
+                padding: 20px;
+                box-shadow: 0 5 20px black;
+                margin-top: 20px;
+            }
+        label {
+                color: white;
+            }
+        p {
+            color: white;
+        }    
+
+    </style>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <form id=form1>
+        <label>First Name</label>
+        <input type="text" name="name" placeholder="First Name" required minlength="10" pattern="[a-Z]" />
+    </form>
+</br>
+    <form>
+
+        <label>Last Name</label>
+        <input type="text" name="name" placeholder="Last Name" required minlength="10" pattern="[a-Z]" />
+    </form>
+</br>
+    <form>
+
+        <label>Email Id</label>
+        <input type="Email" pattern=".+@gmail.com" />
+    </form>
+</br>
+    <form>
+    <label>Contact Number</label>
+    <input type="text" required pattern="[o-9]" minlength="10" maxlength="10" />
+    </form>
+</br>
+    <form>
+        <p> Gender
+            <input type="radio" name="gender"/> 
+            <label>MALE</label>
+            <input type="radio" name="gender"/>
+            <label>FEMALE</label>
+        </p>
+    </form>
+</br>
+<form>
+    <p>Address</p>
+    <textarea cols="33" rows="3"></textarea>       
+</form>
+</br>
+<form>
+    <label>City</label>
+    <input type="text" name="name" placeholder="City" required minlength="10" pattern="[a-Z]" />
+</form>
+</br>
+<form>
+    <label>State</label>
+    <input type="text" name="name" placeholder="State" required minlength="10" pattern="[a-Z]" />
+</form>
+</br>
+<form>
+    <label>Country</label>
+    <input type="text" name="name" placeholder="Country" required minlength="10" pattern="[a-Z]" />
+</form>
+</br>
+<form style="text-align: center;">
+<button>Submit</button>
+</form>
+</body>
+
+</html>
